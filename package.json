@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-register"
+    "test": "mocha --require babel-register",
+    "flow": "flow"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
+    "classnames": "^2.2.5",
+    "flow-bin": "^0.57.3",
     "mocha": "^4.0.1"
   },
   "dependencies": {
